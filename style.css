@@ -11,8 +11,10 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    background-color: hsl(185, 75%, 39%);
-    background-image: url("images/bg-pattern-bottom.svg");
+    background: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg"), hsl(185, 75%, 39%);
+    background-position: right calc(35vw + 50%) bottom calc(30vh - 15%), left calc(35vw + 35%) top calc(60vh + 20%);
+    background-repeat: no-repeat;
+    
 }
 div{
     text-align: center;
@@ -42,7 +44,9 @@ p{
 }
 
 /* Personal data style */
-
+.personal_data{
+    padding-bottom: 35px;
+}
 img{
     border: 5px solid white;
     border-radius: 50%;
@@ -53,7 +57,7 @@ section{
     display: flex;
     margin: auto;
     justify-content: center;
-    padding: 3vh 3vw;
+    padding: 3vh 3vw 0 3vw;
 }
 section p{
     margin-left: 15px;
@@ -66,7 +70,6 @@ section .styled_text{
 .stat{
     display: flex;
     justify-content: space-between;
-    
     padding: 10px 40px;
     border-top: 1px solid hsl(0, 0%, 59%);
 }
@@ -75,7 +78,17 @@ section .styled_text{
 }
 
 /* Responsive */
+@media screen and (max-width: 1440px) {
+    body{
+        width: 100%;
+        background-position: right calc(75vw + 30%) bottom calc(30vh - 15%), left calc(55vw + 35%) top calc(60vh + 20%);
+    }
+}
 @media screen and (max-width: 375px){
+    body{
+        width: 100%;
+        background-position: right calc(95vw + 50%) bottom calc(30vh - 15%), left calc(75vw + 35%) top calc(60vh + 20%); 
+    }
     .container{
         width: 200px;
     }
