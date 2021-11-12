@@ -26,8 +26,8 @@ p{
 }
 /* Container style */
 .container{
-    width: 20vw;
-    min-width: 300px;
+    /* width: 20vw; */
+    width: 450px;
     background-color: white;
     border-radius: 20px;
    
@@ -40,6 +40,7 @@ p{
     margin: 0;
     border-radius: 20px 20px 0 0;  
 }
+
 /* Personal data style */
 
 img{
@@ -66,9 +67,19 @@ section .styled_text{
     display: flex;
     justify-content: space-between;
     
-    padding: 10px 20px;
-    border-top: 1px solid black;
+    padding: 10px 40px;
+    border-top: 1px solid hsl(0, 0%, 59%);
 }
 .small{
     font-size: 12px;
+}
+
+/* Responsive */
+@media screen and (max-width: 375px){
+    .container{
+        width: 200px;
+    }
+    .stat{
+        padding: 10px 10px;
+    }
 }
