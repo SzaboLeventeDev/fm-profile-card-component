@@ -27,7 +27,7 @@ p{
 /* Container style */
 .container{
     width: 20vw;
-    
+    min-width: 300px;
     background-color: white;
     border-radius: 20px;
    
@@ -60,11 +60,13 @@ section p{
 section .styled_text{
     margin-left: -15px;
 }
+
 /* Stat style */
 .stat{
     display: flex;
     justify-content: space-between;
-    padding: 3vh 3vw;
+    
+    padding: 10px 20px;
     border-top: 1px solid black;
 }
 .small{
