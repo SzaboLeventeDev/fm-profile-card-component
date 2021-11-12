@@ -60,6 +60,7 @@ In the future, I would like to develop my skills in positioning more complex ima
 I would like to extend my knowledge to JavaScript, to build more complex sites.
 
 ## Author
+- Live URL (https://szaboleventedev.github.io/fm-profile-card-component/)
 - Frontend Mentor - [@Szabolegeny93](https://www.frontendmentor.io/profile/szabolegeny93)
 - Instagram - [@_levi_devlife_](https://www.instagram.com/_levi_devlife_)
 - LinkedIn - [@szabólevente] (https://www.linkedin.com/in/szab%C3%B3levente/)
